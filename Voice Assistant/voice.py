@@ -41,7 +41,7 @@ def get_weather(city):
     base_url = "http://api.openweathermap.org/data/2.5/weather"
     params = {
         'q': city,
-        'appid': "0f8f1ab0f7a3f4baab6e68a019e7b09d",
+        'appid': "api_id",
         'units': 'metric'  # You can change this to 'imperial' for Fahrenheit
     }
 
@@ -182,7 +182,7 @@ if __name__ == "__main__":
                 elif "turn on the lights" in query:
                     speak("Sorry, I can't control smart home devices yet.")
                 elif 'what is' in query or 'who is' in query or 'which is' in query:
-                    app_id = "Q74UQG-79AW6U6R29"
+                    app_id = "app_id"
                     client = wolframalpha.Client(app_id)
                     try:
 
