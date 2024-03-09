@@ -63,7 +63,7 @@ def get_weather(city):
 def send_email(subject, body, to_email):
     # Replace the following variables with your email credentials
     sender_email = "rakeshkumar.mca1205@gmail.com"
-    sender_password = "RakeshKumarSwain@0512"
+    sender_password = "password"
 
     # Create a connection to the SMTP server
     connection = smtplib.SMTP("smtp.gmail.com", 587)
